@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Literary Multilingualism in Türkiye · MultiLiLiTrans · COST Action CA24137</title>
+<meta name="description" content="A pilot country contribution exploring literary multilingualism, festivals and translation practices in Türkiye for COST Action CA24137 MultiLiLiTrans.">
+<style>
+  :root{
+    --cost-blue:#003399;
+    --cost-blue-dark:#00236b;
+    --ink:#1a1f2b;
+    --ink-soft:#4a5262;
+    --paper:#ffffff;
+    --paper-alt:#f5f7fb;
+    --line:#dde3ee;
+    --accent:#c8102e;
+    --accent-soft:#fdecef;
+    --radius:14px;
+    --maxw:1120px;
+    --font-serif:"Georgia","Times New Roman",serif;
+    --font-sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--font-sans);
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block}
+  a{color:var(--cost-blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* ---------- Skip link ---------- */
+  .skip{position:absolute;left:-9999px;top:0;background:var(--cost-blue);color:#fff;padding:10px 16px;z-index:100}
+  .skip:focus{left:8px;top:8px}
+
+  /* ---------- Top bar ---------- */
+  .topbar{background:var(--cost-blue);color:#fff;font-size:.82rem}
+  .topbar .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;justify-content:space-between;padding-top:8px;padding-bottom:8px}
+  .topbar strong{font-weight:600;letter-spacing:.02em}
+  .topbar nav{display:flex;gap:18px;flex-wrap:wrap}
+  .topbar nav a{color:#dce4f5;text-decoration:none}
+  .topbar nav a:hover{color:#fff;text-decoration:underline}
+
+  /* ---------- Site header ---------- */
+  .site-header{border-bottom:1px solid var(--line);background:var(--paper);position:sticky;top:0;z-index:50}
+  .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px}
+  .brand{display:flex;align-items:center;gap:14px;min-width:0}
+  .brand-mark{
+    width:44px;height:44px;border-radius:10px;flex:0 0 auto;
+    background:linear-gradient(135deg,var(--cost-blue),#2456c4);
+    color:#fff;font-family:var(--font-serif);font-weight:700;font-size:1.05rem;
+    display:grid;place-items:center;letter-spacing:.02em;
+  }
+  .brand-text{line-height:1.25;min-width:0}
+  .brand-text .name{font-weight:700;font-size:1rem;color:var(--ink);letter-spacing:-.01em}
+  .brand-text .sub{font-size:.78rem;color:var(--ink-soft)}
+  .site-nav{display:flex;gap:26px;font-size:.9rem;font-weight:500}
+  .site-nav a{color:var(--ink-soft);text-decoration:none;padding:4px 0;border-bottom:2px solid transparent}
+  .site-nav a:hover{color:var(--cost-blue);border-bottom-color:var(--cost-blue)}
+  @media(max-width:860px){.site-nav{display:none}}
+
+  /* ---------- Hero ---------- */
+  .hero{background:
+      radial-gradient(circle at 15% 20%,rgba(0,51,153,.08),transparent 45%),
+      radial-gradient(circle at 85% 80%,rgba(200,16,46,.07),transparent 45%),
+      var(--paper-alt);
+    border-bottom:1px solid var(--line);padding:72px 0 64px;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-80px;top:-60px;width:320px;height:320px;border-radius:50%;
+    border:1px solid rgba(0,51,153,.14);pointer-events:none}
+  .hero .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.78rem;font-weight:600;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--cost-blue);margin-bottom:20px}
+  .hero .eyebrow::before{content:"";width:28px;height:2px;background:var(--accent)}
+  .hero h1{font-family:var(--font-serif);font-weight:400;font-size:clamp(2.2rem,5vw,3.6rem);
+    line-height:1.08;letter-spacing:-.02em;color:var(--ink);max-width:16ch;margin-bottom:22px}
+  .hero h1 em{font-style:italic;color:var(--cost-blue)}
+  .hero p.lead{font-size:clamp(1rem,1.6vw,1.18rem);color:var(--ink-soft);max-width:60ch;margin-bottom:28px}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:.86rem;color:var(--ink-soft)}
+  .hero .meta span{display:inline-flex;align-items:center;gap:8px}
+  .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block}
+
+  /* ---------- Section scaffolding ---------- */
+  section{padding:72px 0;border-bottom:1px solid var(--line)}
+  section:last-of-type{border-bottom:none}
+  .section-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;
+    gap:16px 32px;margin-bottom:44px}
+  .section-num{font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:10px}
+  .section-head h2{font-family:var(--font-serif);font-weight:400;font-size:clamp(1.7rem,3.2vw,2.5rem);
+    line-height:1.12;letter-spacing:-.015em;color:var(--ink);max-width:26ch}
+  .section-head p{font-size:.95rem;color:var(--ink-soft);max-width:42ch}
+
+  /* ---------- Intro ---------- */
+  .intro-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:56px;align-items:start}
+  @media(max-width:860px){.intro-grid{grid-template-columns:1fr;gap:36px}}
+  .intro-body p{margin-bottom:18px;color:var(--ink-soft);font-size:1.02rem}
+  .intro-body p:last-child{margin-bottom:0}
+  .callout{background:var(--paper-alt);border-left:3px solid var(--accent);border-radius:0 var(--radius) var(--radius) 0;
+    padding:24px 26px}
+  .callout h3{font-family:var(--font-serif);font-size:1.15rem;font-weight:600;margin-bottom:10px;color:var(--ink)}
+  .callout p{font-size:.92rem;color:var(--ink-soft)}
+  .callout .note{margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:.84rem;color:var(--ink-soft);font-style:italic}
+
+  /* ---------- Framework cards ---------- */
+  .framework-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+  .fw-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:28px 26px;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;position:relative}
+  .fw-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px -18px rgba(0,35,107,.35);border-color:#c3cfe6}
+  .fw-card .num{font-family:var(--font-serif);font-size:.95rem;font-weight:700;color:var(--cost-blue);
+    letter-spacing:.08em;margin-bottom:12px}
+  .fw-card h3{font-size:1.08rem;font-weight:600;margin-bottom:8px;color:var(--ink)}
+  .fw-card p{font-size:.9rem;color:var(--ink-soft)}
+
+  /* ---------- Cases ---------- */
+  .cases{display:grid;gap:26px}
+  .case{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--paper);
+    display:grid;grid-template-columns:220px 1fr;transition:box-shadow .18s ease}
+  .case:hover{box-shadow:0 14px 40px -24px rgba(0,35,107,.4)}
+  @media(max-width:820px){.case{grid-template-columns:1fr}}
+  .case-side{background:var(--paper-alt);padding:26px 24px;border-right:1px solid var(--line);
+    display:flex;flex-direction:column;justify-content:space-between;gap:18px}
+  @media(max-width:820px){.case-side{border-right:none;border-bottom:1px solid var(--line)}}
+  .case-loc{font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+  .case-type{font-size:.82rem;color:var(--ink-soft);margin-top:4px}
+  .case-side .idx{font-family:var(--font-serif);font-size:2.4rem;color:#c9d4ea;line-height:1;font-weight:700}
+  .case-main{padding:28px 30px}
+  .case-main h3{font-family:var(--font-serif);font-size:1.3rem;font-weight:600;margin-bottom:14px;color:var(--ink);line-height:1.25}
+  .case-main p{font-size:.94rem;color:var(--ink-soft);margin-bottom:14px}
+  .why{background:var(--paper-alt);border-radius:10px;padding:16px 18px;margin-bottom:16px}
+  .why strong{display:block;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cost-blue);margin-bottom:8px}
+  .why p{font-size:.9rem;margin:0}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .tag{font-size:.74rem;font-weight:600;letter-spacing:.04em;background:var(--accent-soft);color:var(--accent);
+    padding:5px 11px;border-radius:99px}
+  .evidence{font-size:.86rem;color:var(--ink-soft);border-top:1px dashed var(--line);padding-top:14px;margin-bottom:14px}
+  .evidence strong{color:var(--ink)}
+  .case-link{font-size:.88rem;font-weight:600}
+
+  .cases-note{margin-top:32px;padding:22px 26px;background:var(--paper-alt);border-radius:var(--radius);
+    font-size:.92rem;color:var(--ink-soft);border:1px solid var(--line)}
+
+  /* ---------- Questions ---------- */
+  .questions-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-bottom:44px}
+  .q-card{border-top:3px solid var(--cost-blue);padding:22px 0 0}
+  .q-card h3{font-family:var(--font-serif);font-size:1.15rem;font-weight:600;margin-bottom:10px;color:var(--ink)}
+  .q-card p{font-size:.92rem;color:var(--ink-soft)}
+  .prompts{background:var(--paper-alt);border-radius:var(--radius);padding:30px 34px;border:1px solid var(--line)}
+  .prompts h3{font-family:var(--font-serif);font-size:1.2rem;margin-bottom:18px;color:var(--ink)}
+  .prompts ol{list-style:none;counter-reset:prompt}
+  .prompts li{counter-increment:prompt;position:relative;padding-left:40px;margin-bottom:14px;
+    font-size:.95rem;color:var(--ink-soft)}
+  .prompts li::before{content:counter(prompt,decimal-leading-zero);position:absolute;left:0;top:1px;
+    font-family:var(--font-serif);font-weight:700;color:var(--accent);font-size:.95rem}
+
+  /* ---------- Method table ---------- */
+  .method-table{width:100%;border-collapse:collapse;font-size:.9rem;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .method-table th{background:var(--cost-blue);color:#fff;text-align:left;padding:14px 18px;font-weight:600;
+    font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
+  .method-table td{padding:16px 18px;border-top:1px solid var(--line);color:var(--ink-soft);vertical-align:top}
+  .method-table tr:nth-child(even) td{background:var(--paper-alt)}
+  .method-table td:first-child{font-weight:600;color:var(--ink);width:26%}
+  @media(max-width:700px){
+    .method-table thead{display:none}
+    .method-table, .method-table tbody, .method-table tr, .method-table td{display:block;width:100%}
+    .method-table tr{border-bottom:1px solid var(--line);padding:8px 0}
+    .method-table td{border:none;padding:6px 18px}
+    .method-table td:first-child{width:auto;padding-top:14px}
+  }
+
+  .template{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:36px}
+  .tmpl-item{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+  .tmpl-item .k{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+  .tmpl-item .v{font-size:.9rem;color:var(--ink-soft)}
+
+  /* ---------- Living exhibition ---------- */
+  .exhibit{background:linear-gradient(160deg,var(--cost-blue),var(--cost-blue-dark));color:#fff;border-radius:var(--radius);
+    padding:48px 44px;position:relative;overflow:hidden}
+  .exhibit::after{content:"";position:absolute;right:-60px;bottom:-80px;width:260px;height:260px;
+    border-radius:50%;border:1px solid rgba(255,255,255,.18)}
+  .exhibit h2{font-family:var(--font-serif);font-weight:400;font-size:clamp(1.5rem,2.6vw,2rem);margin-bottom:20px;letter-spacing:-.01em}
+  .exhibit p{color:#d7e0f3;max-width:64ch;margin-bottom:16px;font-size:.98rem}
+  .exhibit p:last-child{margin-bottom:0}
+  .theme-chips{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+  .theme-chips span{font-size:.8rem;font-weight:600;padding:7px 14px;border-radius:99px;
+    background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);color:#fff}
+
+  /* ---------- Footer ---------- */
+  .site-footer{background:var(--paper-alt);border-top:1px solid var(--line);padding:52px 0 40px}
+  .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:36px}
+  @media(max-width:820px){.footer-grid{grid-template-columns:1fr;gap:28px}}
+  .footer-brand .name{font-weight:700;font-size:1.05rem;color:var(--ink);margin-bottom:6px}
+  .footer-brand p{font-size:.88rem;color:var(--ink-soft);max-width:42ch}
+  .footer-col h4{font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:14px;font-weight:700}
+  .footer-col ul{list-style:none}
+  .footer-col li{margin-bottom:8px;font-size:.88rem}
+  .footer-col a{color:var(--ink-soft)}
+  .footer-col a:hover{color:var(--cost-blue)}
+  .disclaimer{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px 24px;font-size:.82rem;color:var(--ink-soft);margin-bottom:28px;line-height:1.7}
+  .disclaimer strong{color:var(--ink)}
+  .footer-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;
+    padding-top:24px;border-top:1px solid var(--line);font-size:.82rem;color:var(--ink-soft)}
+  .footer-bottom .cost{font-weight:600;color:var(--cost-blue)}
+
+  /* ---------- Back to top ---------- */
+  .totop{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:50%;
+    background:var(--cost-blue);color:#fff;display:grid;place-items:center;border:none;cursor:pointer;
+    box-shadow:0 8px 24px -8px rgba(0,35,107,.5);opacity:0;visibility:hidden;transition:.25s;font-size:1.1rem;z-index:60}
+  .totop.show{opacity:1;visibility:visible}
+  .totop:hover{background:var(--cost-blue-dark)}
+
+  @media(prefers-reduced-motion:reduce){
+    *{transition:none!important;animation:none!important}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#main">Skip to content</a>
+
+<!-- Top bar -->
+<div class="topbar">
+  <div class="wrap">
+    <strong>COST Action CA24137 · MultiLiLiTrans</strong>
+    <nav aria-label="Quick links">
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#framework">Framework</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#cases">Country cases</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#method">Method</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#exhibition">Living exhibition</a>
+    </nav>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">ML</div>
+      <div class="brand-text">
+        <div class="name">MultiLiLiTrans</div>
+        <div class="sub">Literary multilingualism &amp; social transformations</div>
+      </div>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#intro">Introduction</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#framework">Framework</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#cases">Cases</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#questions">Questions</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#method">Method</a>
+      <a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#exhibition">Exhibition</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" style="border-bottom:1px solid var(--line)" aria-labelledby="hero-title">
+    <div class="wrap">
+      <span class="eyebrow">A country contribution · Working model</span>
+      <h1 id="hero-title">Literary <em>Multilingualism</em> in Türkiye</h1>
+      <p class="lead">Festivals, translation practices and cultural encounters: exploring how languages meet, circulate and become visible in literary public life.</p>
+      <div class="meta">
+        <span><span class="dot"></span> COST Action CA24137</span>
+        <span><span class="dot"></span> Pilot country page · Türkiye</span>
+        <span><span class="dot"></span> Discussion draft</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 01 Introduction -->
+  <section id="intro" aria-labelledby="intro-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">01 / Introduction</div>
+          <h2 id="intro-title">Many languages.<br>Connected literary worlds.</h2>
+        </div>
+        <p>Türkiye offers a rich field for examining literary multilingualism — shaped by migration, regional language histories, translation networks, urban cultural encounters and diverse forms of literary participation.</p>
+      </div>
+      <div class="intro-grid">
+        <div class="intro-body">
+          <p>This contribution approaches festivals and literary gatherings as public spaces in which languages, authors, readers, publishers and cultural institutions encounter one another. It asks not only <em>which</em> languages are present, but also which are translated, heard, represented, or left at the margins.</p>
+        </div>
+        <aside class="callout" aria-labelledby="perspective-title">
+          <h3 id="perspective-title">Research perspective — from events to practices</h3>
+          <p>The focus is not a catalogue of festivals. Events are treated as research sites through which we can investigate language visibility, translation, cultural mediation, participation and access.</p>
+          <p class="note">The interpretations on this page are analytical starting points. They are not claims that every festival explicitly identifies itself as multilingual. Further interviews and programme-level analysis are needed.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 Framework -->
+  <section id="framework" aria-labelledby="framework-title" style="background:var(--paper-alt)">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">02 / Shared analytical framework</div>
+          <h2 id="framework-title">What should we look for?</h2>
+        </div>
+        <p>A common set of questions can make national contributions comparable without flattening their local contexts.</p>
+      </div>
+      <div class="framework-grid">
+        <article class="fw-card">
+          <div class="num">01 · Policy</div>
+          <h3>Institutional and language policy</h3>
+          <p>How do organisers, municipalities, universities and cultural institutions frame linguistic diversity? Are there explicit policies on language representation, translation or minority-language participation?</p>
+        </article>
+        <article class="fw-card">
+          <div class="num">02 · Practice</div>
+          <h3>Literary and linguistic practices</h3>
+          <p>Which languages appear in readings, panels, publications and workshops? Are multilingual writing, code-switching, oral traditions or translation discussed and practised?</p>
+        </article>
+        <article class="fw-card">
+          <div class="num">03 · Participation</div>
+          <h3>Who participates?</h3>
+          <p>Which authors, translators, publishers, readers and communities take part? Who speaks, who listens, and who shapes the programme?</p>
+        </article>
+        <article class="fw-card">
+          <div class="num">04 · Accessibility</div>
+          <h3>Access and inclusion</h3>
+          <p>Are events free and open? Is interpretation available? Are venues, formats and communication accessible to different audiences?</p>
+        </article>
+        <article class="fw-card">
+          <div class="num">05 · Translation</div>
+          <h3>Translation and circulation</h3>
+          <p>Which works travel between languages? Are translators visible as cultural agents? Do professional meetings create pathways for literary exchange?</p>
+        </article>
+        <article class="fw-card">
+          <div class="num">06 · Intercultural dialogue</div>
+          <h3>Encounter and negotiation</h3>
+          <p>How do events create dialogue across linguistic, regional, national and cultural boundaries? Are differences explored or merely celebrated?</p>
+        </article>
+        <article class="fw-card">
+          <div class="num">07 · Sustainability</div>
+          <h3>Continuity and legacy</h3>
+          <p>Are programmes, recordings, translations and archives preserved? What remains available after the event, and who maintains it?</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 Cases -->
+  <section id="cases" aria-labelledby="cases-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">03 / Türkiye · Selected cases</div>
+          <h2 id="cases-title">Literary spaces across the country</h2>
+        </div>
+        <p>The following cases illustrate different institutional forms and possible research angles. They are a selected sample, not an exhaustive inventory.</p>
+      </div>
+
+      <div class="cases">
+
+        <!-- Case 1 -->
+        <article class="case">
+          <div class="case-side">
+            <div>
+              <div class="case-loc">Istanbul</div>
+              <div class="case-type">International festival</div>
+            </div>
+            <div class="idx" aria-hidden="true">01</div>
+          </div>
+          <div class="case-main">
+            <h3>İTEF — Istanbul International Literature Festival</h3>
+            <p>Organised since 2009 by Kalem Culture Association, İTEF brings local and international authors, publishers and literary professionals into contact with Turkish literature and the publishing field. Its Professional Meetings / Fellowship programme connects authors, publishers, agents, translators and journalists.</p>
+            <div class="why">
+              <strong>Why it matters for MultiLiLiTrans</strong>
+              <p>İTEF offers a strong case for studying translation as cultural mediation and the international circulation of literature. Its professional network makes it possible to ask how works move from Turkish into other languages, how translators and publishers select texts, and which literary voices gain international visibility.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">Translation</span>
+              <span class="tag">Literary circulation</span>
+              <span class="tag">International networks</span>
+            </div>
+            <p class="evidence"><strong>Evidence to collect:</strong> fellowship participants, language pairs, translated titles, programme languages, interpretation practices.</p>
+            <a class="case-link" href="https://www.kalemedebiyat.org/" target="_blank" rel="noopener">Official festival website ↗</a>
+          </div>
+        </article>
+
+        <!-- Case 2 -->
+        <article class="case">
+          <div class="case-side">
+            <div>
+              <div class="case-loc">Bursa / Nilüfer</div>
+              <div class="case-type">International festival</div>
+            </div>
+            <div class="idx" aria-hidden="true">02</div>
+          </div>
+          <div class="case-main">
+            <h3>Bursa International Literature Festival (BUEF)</h3>
+            <p>BUEF presents literature as a meeting ground for different voices and ideas. Its 2026 programme is announced for 26–29 November, with writers from Türkiye and several other countries. The published programme information also identifies international cultural and literary partners.</p>
+            <div class="why">
+              <strong>Why it matters for MultiLiLiTrans</strong>
+              <p>BUEF can be examined as a site where international literary exchange is organised through themes, invited authors and institutional partnerships. The key question is how the presence of writers from different countries translates into actual multilingual interaction: readings, discussion languages, interpretation and translated texts.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">Intercultural dialogue</span>
+              <span class="tag">Translation partnerships</span>
+              <span class="tag">Public programme</span>
+            </div>
+            <p class="evidence"><strong>Evidence to collect:</strong> session languages, interpreting arrangements, translated works, partner roles, audience engagement.</p>
+            <a class="case-link" href="https://www.buef.org/" target="_blank" rel="noopener">Official BUEF website ↗</a>
+          </div>
+        </article>
+
+        <!-- Case 3 -->
+        <article class="case">
+          <div class="case-side">
+            <div>
+              <div class="case-loc">Istanbul</div>
+              <div class="case-type">Public literary gathering</div>
+            </div>
+            <div class="idx" aria-hidden="true">03</div>
+          </div>
+          <div class="case-main">
+            <h3>International Sarıyer Literature Days</h3>
+            <p>Organised by Sarıyer Municipality since 2012, the event combines author talks, book signings, workshops, exhibitions, concerts and activities for younger audiences. Municipal reporting on the 2025 edition records a five-day programme with 400 writers and 33 publishers; the 2026 edition was also presented as a large public literary gathering.</p>
+            <div class="why">
+              <strong>Why it matters for MultiLiLiTrans</strong>
+              <p>Sarıyer offers a case for examining literature in public space and the relationship between scale, participation and linguistic diversity. A large audience does not automatically mean multilingual access; the programme needs to be examined for language choice, interpretation, minority-language visibility and the presence of translated literature.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">Participation</span>
+              <span class="tag">Public space</span>
+              <span class="tag">Accessibility</span>
+            </div>
+            <p class="evidence"><strong>Evidence to collect:</strong> programme language, author language profiles, free-access arrangements, interpretation, children's activities.</p>
+            <a class="case-link" href="https://www.sariyer.bel.tr/" target="_blank" rel="noopener">Sarıyer Municipality ↗</a>
+          </div>
+        </article>
+
+        <!-- Case 4 -->
+        <article class="case">
+          <div class="case-side">
+            <div>
+              <div class="case-loc">Diyarbakır</div>
+              <div class="case-type">Regional book fair</div>
+            </div>
+            <div class="idx" aria-hidden="true">04</div>
+          </div>
+          <div class="case-main">
+            <h3>Diyarbakır Book Fair</h3>
+            <p>Organised by TÜYAP in cooperation with the Turkish Publishers Association, the fair brings publishers, civil-society organisations, authors and readers together in the region. The 2026 edition included a programme of talks, signing sessions, workshops, theatre, music and poetry events; the organiser describes the fair as contributing to the social and cultural life of Diyarbakır and its surroundings.</p>
+            <div class="why">
+              <strong>Why it matters for MultiLiLiTrans</strong>
+              <p>Diyarbakır is a particularly relevant site for investigating the relationship between regional literary cultures, language visibility and publishing. Research should establish which languages and literary traditions are represented, whether Kurdish-language publishing and authors are present, and how audiences encounter multilingual materials. These questions require programme and participant verification rather than assumption.</p>
+            </div>
+            <div class="tags">
+              <span class="tag">Regional literary cultures</span>
+              <span class="tag">Publishing</span>
+              <span class="tag">Language visibility</span>
+            </div>
+            <p class="evidence"><strong>Evidence to collect:</strong> publisher list, language distribution, author profiles, book availability, programme and audience interviews.</p>
+            <a class="case-link" href="https://www.tuyap.com.tr/" target="_blank" rel="noopener">TÜYAP fair information ↗</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="cases-note">The four cases deliberately represent different models: an international literary network, a themed international festival, a municipality-led public literary gathering and a regional publishing fair. This variety can help the working group compare not only events, but also the infrastructures through which literary multilingualism becomes visible.</p>
+    </div>
+  </section>
+
+  <!-- 04 Questions -->
+  <section id="questions" aria-labelledby="questions-title" style="background:var(--paper-alt)">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">04 / Emerging questions</div>
+          <h2 id="questions-title">What might the Türkiye case reveal?</h2>
+        </div>
+      </div>
+      <div class="questions-grid">
+        <article class="q-card">
+          <h3>Visibility is not the same as presence</h3>
+          <p>A language may be spoken by participants or present in a city's social life without appearing in the official programme. The research should distinguish between languages used in everyday contexts, languages represented on stage, languages available in publications and languages supported through interpretation.</p>
+        </article>
+        <article class="q-card">
+          <h3>Translation is infrastructure</h3>
+          <p>Translation is not simply a final step in literary circulation. It is shaped by publishers, agents, translators, funding, institutional partnerships and selection practices. İTEF's professional meetings provide one route for investigating these networks.</p>
+        </article>
+        <article class="q-card">
+          <h3>Access needs to be examined in practice</h3>
+          <p>Free admission, open-air venues and large audiences can widen participation, but they do not by themselves guarantee linguistic accessibility. Interpretation, multilingual publicity, accessible archives and the affordability of books are also relevant.</p>
+        </article>
+      </div>
+      <div class="prompts">
+        <h3>Comparative prompts</h3>
+        <ol>
+          <li>Which languages are named in festival policies and programmes?</li>
+          <li>Who decides which authors and languages are represented?</li>
+          <li>Are translators visible, credited and invited to speak?</li>
+          <li>Are minority and regional languages represented as literary languages?</li>
+          <li>What forms of interpretation are offered, and for whom?</li>
+          <li>Do digital archives preserve multilingual content?</li>
+          <li>What barriers do organisers and participants identify?</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 Method -->
+  <section id="method" aria-labelledby="method-title">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-num">05 / Research design</div>
+          <h2 id="method-title">From a country profile to comparable evidence</h2>
+        </div>
+        <p>A combination of document analysis, organiser interviews and selected case studies can turn the website into a research-based exhibition rather than a promotional directory.</p>
+      </div>
+
+      <table class="method-table">
+        <thead>
+          <tr><th scope="col">Method</th><th scope="col">Material</th><th scope="col">What it can show</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Programme and archive analysis</td><td>Festival programmes, websites, posters, recordings, publisher lists</td><td>Languages represented, event formats, translation and interpretation practices</td></tr>
+          <tr><td>Semi-structured interviews</td><td>Festival directors, programme curators, translators, publishers</td><td>Selection criteria, institutional constraints, language policy and sustainability</td></tr>
+          <tr><td>Festival manager questionnaire</td><td>A shared questionnaire across participating countries</td><td>Comparable information on policy, practice, participation, access and resources</td></tr>
+          <tr><td>Case studies</td><td>Two to four contrasting events in each country</td><td>How multilingualism is experienced and negotiated in specific settings</td></tr>
+          <tr><td>Digital exhibition material</td><td>Short texts, photographs with permission, audio/video, translated excerpts</td><td>Public-facing presentation of evidence, stories and cross-country connections</td></tr>
+        </tbody>
+      </table>
+
+      <h3 style="font-family:var(--font-serif);font-size:1.25rem;margin:44px 0 8px;font-weight:600;color:var(--ink)">A proposed country contribution template</h3>
+      <p style="font-size:.92rem;color:var(--ink-soft);margin-bottom:4px">A reusable structure for each participating national team.</p>
+
+      <div class="template">
+        <div class="tmpl-item"><div class="k">Context</div><div class="v">Brief description of the national and regional literary landscape.</div></div>
+        <div class="tmpl-item"><div class="k">Selected cases</div><div class="v">Event name, location, organiser, history, format and official website.</div></div>
+        <div class="tmpl-item"><div class="k">Languages</div><div class="v">Languages used, represented, translated or absent from the programme.</div></div>
+        <div class="tmpl-item"><div class="k">Translation</div><div class="v">Translators, language pairs, publishing networks and interpretation.</div></div>
+        <div class="tmpl-item"><div class="k">Participation &amp; access</div><div class="v">Audiences, costs, venue, accessibility and outreach.</div></div>
+        <div class="tmpl-item"><div class="k">Evidence</div><div class="v">Programme extracts, interviews, images and links, with permissions.</div></div>
+        <div class="tmpl-item"><div class="k">Reflection</div><div class="v">Key findings, gaps in evidence and questions for comparison.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 Exhibition -->
+  <section id="exhibition" aria-labelledby="exhibition-title">
+    <div class="wrap">
+      <div class="exhibit">
+        <div class="section-num" style="color:#ffb3bf">06 / A living exhibition</div>
+        <h2 id="exhibition-title">A shared platform, not a static catalogue</h2>
+        <p>The Türkiye example can serve as a pilot structure for the other participating countries. Each national team can contribute a small number of well-documented cases using the same template, while adding local themes and materials.</p>
+        <div class="theme-chips" aria-label="Cross-country themes">
+          <span>Translation</span>
+          <span>Minority-language visibility</span>
+          <span>Literary festivals</span>
+          <span>Migration</span>
+          <span>Publishing networks</span>
+          <span>Public participation</span>
+        </div>
+        <p>The platform could connect country pages through shared themes, allowing visitors to move between national contexts and identify common patterns as well as meaningful differences.</p>
+        <p>A sustainable first version does not need complex functionality. A clear country-page structure, accessible text, carefully selected media, stable links and a maintainable archive may be more valuable than an expensive feature-rich website.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="disclaimer">
+      <strong>Working draft for discussion within COST Action CA24137 · MultiLiLiTrans.</strong> Festival descriptions are based on publicly available organiser and municipal information. Interpretive comments are research questions, not verified findings. Before publication, all programme details, images, permissions and language claims should be checked with organisers and primary sources.
+    </div>
+
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="name">MultiLiLiTrans · COST Action CA24137</div>
+        <p>Literary Multilingualism in Türkiye — a pilot country contribution for a comparative digital exhibition.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Source links</h4>
+        <ul>
+          <li><a href="https://www.kalemedebiyat.org/" target="_blank" rel="noopener">İTEF</a></li>
+          <li><a href="https://www.buef.org/" target="_blank" rel="noopener">BUEF</a></li>
+          <li><a href="https://www.sariyer.bel.tr/" target="_blank" rel="noopener">Sarıyer Municipality</a></li>
+          <li><a href="https://www.tuyap.com.tr/" target="_blank" rel="noopener">Diyarbakır Book Fair</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>On this page</h4>
+        <ul>
+          <li><a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#framework">Analytical framework</a></li>
+          <li><a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#cases">Selected cases</a></li>
+          <li><a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#method">Research design</a></li>
+          <li><a href="blob:https://chat.deepseek.com/564819b1-4eca-4e40-87de-3a1bc8ac9c56#exhibition">Living exhibition</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span class="cost">COST Action CA24137 · MultiLiLiTrans</span>
+      <span>Prepared as a discussion prototype. Not an official COST Action publication.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="Back to top" title="Back to top">↑</button>
+
+<script>
+  // Back-to-top button
+  const totop = document.getElementById('totop');
+  window.addEventListener('scroll', () => {
+    totop.classList.toggle('show', window.scrollY > 600);
+  }, {passive:true});
+  totop.addEventListener('click', () => {
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+</script>
+<style>body{margin:0}</style><script>window.parent.postMessage({previewContentReady:true},"*")</script>
+</body></html>
